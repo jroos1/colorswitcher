@@ -1,0 +1,33 @@
+#wrapper {
+  height: 200px;
+  padding: 30px;
+}
+
+#switcher {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#switcher li {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 0 15px 15px 0;
+  border-radius: 30px;
+  border: 5px solid black;
+}
+
+#grayButton {
+  background-color: gray;
+}
+#whiteButton {
+  background-color: white;
+}
+#blueButton {
+  background-color: blue;
+}
+#yellowButton {
+  background-color: yellow;
+}
