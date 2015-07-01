@@ -8,6 +8,20 @@ function switchWhite() {
   document.getElementsByTagName('body')[0].style.color = 'black'; 
 }
 
+function switchYellow() {
+  document.getElementsByTagName('body')[0].style.backgroundColor = 'yellow';
+  document.getElementsByTagName('body')[0].style.color = 'blue'; 
+}
+
+function switchBlue() {
+  document.getElementsByTagName('body')[0].style.backgroundColor = 'blue';
+  document.getElementsByTagName('body')[0].style.color = 'yellow'; 
+}
+
 document.getElementById('grayButton').onclick = switchGray;
 
 document.getElementById('whiteButton').onclick = switchWhite; 
+
+document.getElementById('blueButton').onclick = switchBlue;
+
+document.getElementById('yellowButton').onclick = switchYellow; 
